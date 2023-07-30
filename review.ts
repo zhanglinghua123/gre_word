@@ -96,8 +96,10 @@ const reviewIng = async (words:Data[]) => {
                 case 1:
                     words[i].repeatTime+=1   
                     words[i].time = new Date();
+                    console.log('the meaning is',words[i].chinese,'\n');
                     break;   
                 case 0:
+                    console.log('the meaning is',words[i].chinese,'\n');
                     break;
                 default:
                     Continue = false;

@@ -109,6 +109,7 @@ const reviewIng = async (words:Data[]) => {
                 default:
                     Continue = false;
             }
+            console.log('the meaning is',words[i].chinese,'\n');
             if(!Continue) break;
         }
         break;
